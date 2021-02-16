@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="201dp"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/house_symbol_business_finance_bank_pictogram_concept_line_logo_png_clipart" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="323dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome to the Sisonke Bank App"
+        android:textColor="#673AB7"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <EditText
+        android:id="@+id/EmailField"
+        android:layout_width="281dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/PasswordField"
+        android:layout_width="281dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="336dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:background="#673AB7"
+        android:onClick="landingView"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="registerView"
+        android:text="Don't have an account? Register Here." />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>

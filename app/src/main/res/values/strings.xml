@@ -1,0 +1,7 @@
+<resources>
+<string name="app_name">ITJABankApp</string>
+<string-array name="spinnerItems">
+    <item>Current to Savings</item>
+    <item>Savings to Current</item>
+</string-array>
+</resources>

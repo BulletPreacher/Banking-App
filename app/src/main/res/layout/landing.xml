@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="loginView"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="126dp" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="323dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome Sheunesu"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/ViewAccountButton"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="66dp"
+        android:background="#673AB7"
+        android:onClick="accountView"
+        android:text="View Account Balance"
+        android:textColor="#FAFAFA" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="66dp"
+        android:background="#673AB7"
+        android:onClick="transferView"
+        android:text="Transfer Between Accounts"
+        android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="66dp"
+        android:background="#673AB7"
+        android:onClick="loginView"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

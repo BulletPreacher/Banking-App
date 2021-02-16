@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="323dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="View Account Balance"
+        android:textColor="#673AB7"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Account Holder Name:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Account Holder Surname:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewCurrent"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Current Account Balance:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewSavings"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Savings Account Balance:" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>
